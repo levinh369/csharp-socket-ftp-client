@@ -3,9 +3,6 @@
 Đây là ứng dụng **FTP Client** được xây dựng bằng **C# WinForms** và kỹ thuật **Lập trình Socket thuần (Raw Socket Programming - TCP/IP)**.
 Dự án mô phỏng lại cơ chế hoạt động cốt lõi của giao thức FTP (File Transfer Protocol) mà không sử dụng các thư viện hỗ trợ sẵn ở tầng cao như `FtpWebRequest`.
 
-![Demo Screenshot](demo.png)
-*(Hãy thay `demo.png` bằng ảnh chụp màn hình thực tế của ứng dụng)*
-
 ## 🚀 Tính năng nổi bật
 
 * **Giao tiếp qua Socket:** Tự xử lý việc thiết lập kết nối TCP và các luồng dữ liệu (Data Streams) bằng thư viện `System.Net.Sockets`.
@@ -46,12 +43,3 @@ Khác với các ứng dụng FTP thông thường sử dụng thư viện có s
 3.  **Kết nối:**
     * Nhập địa chỉ Host (ví dụ: `127.0.0.1`), Username và Password đã tạo.
     * Nhấn nút **Connect**.
-
-## 📸 Ảnh chụp màn hình
-
-| Màn hình Đăng nhập | Quản lý File |
-| :---: | :---: |
-| ![Login](link-anh-1) | ![Explorer](link-anh-2) |
-
----
-**Author:** [Tên của bạn]
